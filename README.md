@@ -29,7 +29,7 @@
 ## The taxonomy of deep learning methods for 3D human pose estimation
 Both *single-person 3D pose estimation* and *multi-person 3D pose estimation* combined with different supervision forms could derive various branches as described in the figure below.
 
-<img src="https://github.com/djzgroup/HumanPoseSurvey/blob/main/taxonomy.png" width="5500">
+<img src="https://github.com/djzgroup/HumanPoseSurvey/blob/main/taxonomy.png" width="550">
 
 It is an unbalanced tree describing deep learning based 3D human pose estimation. Multi-person 3D pose estimation has received less interest compared to single-person 3D pose estimation. Also, video-based 3D pose estimation is less studied than image-based 3D pose estimation. Another interesting sight is that fully-supervised methods are presented in each sub-category, which may indicate that fully-supervised methods are helped to investigate a research area at the beginning. 
 
@@ -109,13 +109,13 @@ We present the state-of-the-art results on several datasets, such as Human3.6m, 
 
 ### Summary of the state-of-the-art multi-person 3D pose estimation methods on Shelf dataset.
 
-| **Title**                                                    | **Year** | **Supervision**   | **Type**   |                           **URL**                            |
+| **Title**                                                    | **Year** | **Supervision**   | **Type **  |                           **URL**                            |
 | ------------------------------------------------------------ | -------- | ----------------- | ---------- | :----------------------------------------------------------: |
 | [3D Pictorial Structures for Multiple Human Pose Estimation](https://openaccess.thecvf.com/content_cvpr_2014/html/Belagiannis_3D_Pictorial_Structures_2014_CVPR_paper.html) | 2014     | fully-supervised  | multi-view |                              -                               |
 | [Multiple human pose estimation with temporally consistent 3D pictorial structures](https://link.springer.com/chapter/10.1007/978-3-319-16178-5_52) | 2014     | weakly-supervised | multi-view |                              -                               |
 | [3d pictorial structures revisited: Multiple human pose estimation](https://ieeexplore.ieee.org/abstract/document/7360209) | 2015     | fully-supervised  | multi-view |                              -                               |
 | [Multiple human 3d pose estimation from multiview images](https://link.springer.com/article/10.1007/s11042-017-5133-8) | 2018     | weakly-supervised | multi-view |                              -                               |
-| [Fast and Robust Multi-Person 3D Pose Estimation From Multiple Views](https://openaccess.thecvf.com/content_CVPR_2019/html/Dong_Fast_and_Robust_Multi-Person_3D_Pose_Estimation_From_Multiple_Views_CVPR_2019_paper.html) | 2019     | weakly-supervised | multi-view |          [code](https://zju3dv.github.io/mvpose/)           |
+| [Fast and Robust Multi-Person 3D Pose Estimation From Multiple Views](https://openaccess.thecvf.com/content_CVPR_2019/html/Dong_Fast_and_Robust_Multi-Person_3D_Pose_Estimation_From_Multiple_Views_CVPR_2019_paper.html) | 2019     | weakly-supervised | multi-view |           [code](https://zju3dv.github.io/mvpose/)           |
 | [Multi-Person 3D Pose Estimation and Tracking in Sports](https://openaccess.thecvf.com/content_CVPRW_2019/html/CVSports/Bridgeman_Multi-Person_3D_Pose_Estimation_and_Tracking_in_Sports_CVPRW_2019_paper.html) | 2019     | unsupervised      | multi-view | [code](https://cvssp.org/projects/4d/multi_person_3d_pose_sports/) |
 | [VoxelPose: Towards Multi-camera 3D Human Pose Estimation in Wild Environment](https://link.springer.com/content/pdf/10.1007/978-3-030-58452-8_12.pdf) | 2020     | fully-supervised  | multi-view |    [code](https://github.com/microsoft/voxelpose-pytorch)    |
 | [Light3DPose: Real-time Multi-Person 3D Pose Estimation from Multiple Views](https://ieeexplore.ieee.org/abstract/document/9412652) | 2021     | weakly-supervised | multi-view |                              -                               |
