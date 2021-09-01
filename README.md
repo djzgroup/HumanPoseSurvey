@@ -1,6 +1,6 @@
 # HumanPoseSurvey
 ## Deep learning methods for 3D human pose estimation under different supervision manners: A survey
-3D human pose estimation is an essential technique for many computer vision applications such as video surveillance, human-computer interaction, digital entertainment, etc. Meanwhile, it is also a challenging task due to the inherent ambiguity and occlusion problems. Lately, deep learning method for 3D human pose estimation has attracted increasing attention due to the success of learning based 2D human pose estimation. Against this backdrop, numerous methods have being proposed to address different problems in this area. Generally, these methods consist of the body modeling, learning based pose estimation and regularization for refinement. This paper provides an extensive literature survey of recent literatures about Deep learning methods for 3D human pose estimation, covering the aspects of human body model, 3D single-person pose estimation, 3D multi-person human pose estimation and regularization. Moreover, as deep learning methods can be categorized according to supervision manners which are based on quite different philosophies and are applicable for diverse scenarios, this paper provides a classification for both 3D single-person and multi-person pose estimation methods based on their supervision manners, i.e. unsupervised methods, fully-supervised methods, weakly-supervised methods, semi-supervised methods, and self-supervised methods. At last, this paper also enlists the contemporary and widely used datasets, compares performances of reviewed methods and discusses promising research directions.
+The rise of deep learning technology has broadly promoted the practical application of artificial intelligence in production and daily life. In computer vision, many human-centered applications, such as video surveillance, human-computer interaction, digital entertainment, etc., rely heavily on accurate and efficient human pose estimation techniques. Inspired by the remarkable achievements in learning-based 2D human pose estimation, numerous researches are devoted to the topic of 3D human pose estimation via deep learning methods. Against this backdrop, this paper provides an extensive literature survey of recent literature about deep learning methods for 3D human pose estimation to display the development process of these researches, track the latest research trends and analyze the characteristics of devised types of methods. The literatures are reviewed along with the general pipeline of 3D human pose estimation, which consists of human body modeling, learning-based pose estimation, and regularization for refinement. Different from existing reviews of the same topic, this paper focus on deep learning-based methods. The learning-based pose estimation is discussed from two categories of single-person and multi-person. Each one is further categorized by data type to the image-based methods and the video-based methods. Moreover, due to the significance of data for learning-based methods, this paper surveys the 3D human pose estimation methods according to the taxonomy of supervision form. At last, this paper also enlists the current and widely used datasets and compares performances of reviewed methods. Based on this literature survey, it can be concluded that each branch of 3D human pose estimation starts with fully-supervised methods, and there is still much room for multi-person pose estimation based on other supervision methods from both image and video. Besides the significant development of 3D human pose estimation via deep learning, the inherent ambiguity and occlusion problems remain challenging issues that need to be better addressed.
 
 **Keywords:** 3D human pose estimation; deep learning; unsupervised; fully-supervised; weakly-supervised; semi-supervised
 
@@ -13,7 +13,7 @@
   - *Top-down methods* first detect the human candidates and then apply single-person pose estimation for each of them. 
   - *Bottom-up methods* first detect all keypoints followed by grouping them into different people. 
 
-## Input form
+## Input paradigm
 
 - ***RGB image-based methods*** take static images as input, only taking spatial context into account, which differs from video-based methods.
 - ***Video-based methods*** meet more challenges than image-based methods, such as temporal information processing, correspondence between spatial information and temporal information and motion changes in different frames, etc.
@@ -26,7 +26,7 @@
 - ***Semi-supervised methods*** use part of annotated data (e.g. 10 percent of 3D labels), which means labeled training data is scarce.
 
 
-## The taxonomy of deep learning methods for 3D human pose estimation
+## Taxonomy
 Both *single-person 3D pose estimation* and *multi-person 3D pose estimation* combined with different supervision forms could derive various branches as described in the figure below.
 
 <img src="https://github.com/djzgroup/HumanPoseSurvey/blob/main/taxonomy.png" width="550">
